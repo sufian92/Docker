@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.386" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.084" tests="6" errors="0" skipped="4" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/sufianamara/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3976108927597767001.tmp"/>
+    <property name="classworlds.conf" value="/Users/sufianamara/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf69474272055464348.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/sufianamara/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,6 +62,29 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="paralleltwo" classname="Docker.Docker.parallelOneTest" time="4.407"/>
-  <testcase name="parallelOne" classname="Docker.Docker.parallelOneTest" time="8.034"/>
+  <testcase name="initialize" classname="Docker.Docker.parallelOneTest" time="0.791">
+    <failure message="no protocol: 127.0.0.1:4444/wd/hub" type="java.net.MalformedURLException">java.net.MalformedURLException: no protocol: 127.0.0.1:4444/wd/hub
+	at Docker.Docker.parallelOneTest.initialize(parallelOneTest.java:31)
+</failure>
+    <system-err><![CDATA[May 23, 2021 8:38:46 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+]]></system-err>
+  </testcase>
+  <testcase name="initialize" classname="Docker.Docker.parallelOneTest" time="0.792">
+    <failure message="no protocol: 127.0.0.1:4444/wd/hub" type="java.net.MalformedURLException">java.net.MalformedURLException: no protocol: 127.0.0.1:4444/wd/hub
+	at Docker.Docker.parallelOneTest.initialize(parallelOneTest.java:31)
+</failure>
+  </testcase>
+  <testcase name="parallelOne" classname="Docker.Docker.parallelOneTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="paralleltwo" classname="Docker.Docker.parallelOneTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="Docker.Docker.parallelOneTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="Docker.Docker.parallelOneTest" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
