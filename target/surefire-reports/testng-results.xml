@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10886" started-at="2021-05-23T18:07:48Z" finished-at="2021-05-23T18:07:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10886" started-at="2021-05-23T18:07:48Z" finished-at="2021-05-23T18:07:59Z">
+      <class name="Docker.Docker.parallelOneTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@71248c21]" name="initialize" is-config="true" duration-ms="2495" started-at="2021-05-23T20:07:48Z" finished-at="2021-05-23T20:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@71248c21]" name="initialize" is-config="true" duration-ms="2530" started-at="2021-05-23T20:07:48Z" finished-at="2021-05-23T20:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="parallelOne()[pri:0, instance:Docker.Docker.parallelOneTest@71248c21]" name="parallelOne" duration-ms="8197" started-at="2021-05-23T20:07:50Z" finished-at="2021-05-23T20:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelOne -->
+        <test-method status="PASS" signature="paralleltwo()[pri:0, instance:Docker.Docker.parallelOneTest@71248c21]" name="paralleltwo" duration-ms="6354" started-at="2021-05-23T20:07:50Z" finished-at="2021-05-23T20:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paralleltwo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@71248c21]" name="teardown" is-config="true" duration-ms="251" started-at="2021-05-23T20:07:57Z" finished-at="2021-05-23T20:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@71248c21]" name="teardown" is-config="true" duration-ms="181" started-at="2021-05-23T20:07:58Z" finished-at="2021-05-23T20:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Docker.Docker.parallelOneTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
