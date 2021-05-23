@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10088" started-at="2021-05-23T18:53:41Z" finished-at="2021-05-23T18:53:51Z">
+  <suite name="Suite" duration-ms="10337" started-at="2021-05-23T19:07:18Z" finished-at="2021-05-23T19:07:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10088" started-at="2021-05-23T18:53:41Z" finished-at="2021-05-23T18:53:51Z">
+    <test name="Test" duration-ms="10337" started-at="2021-05-23T19:07:18Z" finished-at="2021-05-23T19:07:28Z">
       <class name="Docker.Docker.parallelOneTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="initialize" is-config="true" duration-ms="2171" started-at="2021-05-23T20:53:41Z" finished-at="2021-05-23T20:53:43Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="initialize" is-config="true" duration-ms="2140" started-at="2021-05-23T21:07:18Z" finished-at="2021-05-23T21:07:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="initialize" is-config="true" duration-ms="1951" started-at="2021-05-23T20:53:41Z" finished-at="2021-05-23T20:53:43Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="initialize" is-config="true" duration-ms="2197" started-at="2021-05-23T21:07:18Z" finished-at="2021-05-23T21:07:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="paralleltwo()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="paralleltwo" duration-ms="5768" started-at="2021-05-23T20:53:43Z" finished-at="2021-05-23T20:53:48Z">
+        <test-method status="PASS" signature="paralleltwo()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="paralleltwo" duration-ms="4289" started-at="2021-05-23T21:07:20Z" finished-at="2021-05-23T21:07:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paralleltwo -->
-        <test-method status="PASS" signature="parallelOne()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="parallelOne" duration-ms="7630" started-at="2021-05-23T20:53:43Z" finished-at="2021-05-23T20:53:50Z">
+        <test-method status="PASS" signature="parallelOne()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="parallelOne" duration-ms="7924" started-at="2021-05-23T21:07:20Z" finished-at="2021-05-23T21:07:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parallelOne -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="teardown" is-config="true" duration-ms="152" started-at="2021-05-23T20:53:48Z" finished-at="2021-05-23T20:53:48Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="teardown" is-config="true" duration-ms="295" started-at="2021-05-23T21:07:25Z" finished-at="2021-05-23T21:07:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="teardown" is-config="true" duration-ms="259" started-at="2021-05-23T20:53:50Z" finished-at="2021-05-23T20:53:51Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="teardown" is-config="true" duration-ms="174" started-at="2021-05-23T21:07:28Z" finished-at="2021-05-23T21:07:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
