@@ -46,7 +46,7 @@ stage('Docker')
 
 steps{
 
-bat "mvn test"
+sudo "mvn test"
 
 }
 
