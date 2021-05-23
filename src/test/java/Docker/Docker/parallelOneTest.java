@@ -20,14 +20,14 @@ public class parallelOneTest {
 	ThreadLocal<WebDriver> driverThread =new ThreadLocal<WebDriver>();
 	
 	
-	final String URL = "http://172.21.0.2:4444/wd/hub";
+	final String URL = "http://192.168.0.17:4444/wd/hub";
 	
 	WebDriver driver;
 	
 	@BeforeMethod
 	public void initialize() throws IOException
 	{
-	
+		System.out.println(new URL (URL).toString());
 		driver =new RemoteWebDriver(new URL (URL),caps);
 		driverThread.set(driver);
 
