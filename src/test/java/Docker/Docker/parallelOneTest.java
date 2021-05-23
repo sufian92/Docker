@@ -20,7 +20,7 @@ public class parallelOneTest {
 	ThreadLocal<WebDriver> driverThread =new ThreadLocal<WebDriver>();
 	
 	
-	final String URL = "http://localhost:4444/wd/hub";
+	final String URL = "http://127.0.0.1:4444/wd/hub";
 	
 	WebDriver driver;
 	

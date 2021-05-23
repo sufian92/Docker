@@ -17,7 +17,7 @@ public class parallelTwoTest {
 	
 	DesiredCapabilities caps =  DesiredCapabilities.chrome();
 	
-	final String URL = "http://192.168.0.17:4444/wd/hub";
+	final String URL = "http://127.0.0.1:4444/wd/hub";
 	
 	ThreadLocal<WebDriver> driverThread =new ThreadLocal<WebDriver>();
 	
