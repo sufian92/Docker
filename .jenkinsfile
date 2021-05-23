@@ -46,7 +46,7 @@ stage('Docker')
 
 steps{
 
-sudo "mvn test"
+sh "mvn test"
 
 }
 
