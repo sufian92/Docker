@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14251" started-at="2021-05-23T18:04:49Z" finished-at="2021-05-23T18:05:04Z">
+  <suite name="Suite" duration-ms="10457" started-at="2021-05-23T18:20:12Z" finished-at="2021-05-23T18:20:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14251" started-at="2021-05-23T18:04:49Z" finished-at="2021-05-23T18:05:04Z">
+    <test name="Test" duration-ms="10457" started-at="2021-05-23T18:20:12Z" finished-at="2021-05-23T18:20:23Z">
       <class name="Docker.Docker.parallelOneTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="initialize" is-config="true" duration-ms="5121" started-at="2021-05-23T20:04:50Z" finished-at="2021-05-23T20:04:55Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="initialize" is-config="true" duration-ms="2258" started-at="2021-05-23T20:20:12Z" finished-at="2021-05-23T20:20:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="initialize" is-config="true" duration-ms="5116" started-at="2021-05-23T20:04:50Z" finished-at="2021-05-23T20:04:55Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="initialize" is-config="true" duration-ms="2214" started-at="2021-05-23T20:20:12Z" finished-at="2021-05-23T20:20:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="paralleltwo()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="paralleltwo" duration-ms="6125" started-at="2021-05-23T20:04:55Z" finished-at="2021-05-23T20:05:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paralleltwo -->
-        <test-method status="PASS" signature="parallelOne()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="parallelOne" duration-ms="8772" started-at="2021-05-23T20:04:55Z" finished-at="2021-05-23T20:05:03Z">
+        <test-method status="PASS" signature="parallelOne()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="parallelOne" duration-ms="8038" started-at="2021-05-23T20:20:14Z" finished-at="2021-05-23T20:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parallelOne -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="teardown" is-config="true" duration-ms="283" started-at="2021-05-23T20:05:01Z" finished-at="2021-05-23T20:05:01Z">
+        <test-method status="PASS" signature="paralleltwo()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="paralleltwo" duration-ms="5920" started-at="2021-05-23T20:20:14Z" finished-at="2021-05-23T20:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paralleltwo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="teardown" is-config="true" duration-ms="301" started-at="2021-05-23T20:20:20Z" finished-at="2021-05-23T20:20:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="teardown" is-config="true" duration-ms="300" started-at="2021-05-23T20:05:03Z" finished-at="2021-05-23T20:05:04Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Docker.Docker.parallelOneTest@2c34f934]" name="teardown" is-config="true" duration-ms="168" started-at="2021-05-23T20:20:22Z" finished-at="2021-05-23T20:20:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
